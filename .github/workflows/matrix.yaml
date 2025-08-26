@@ -2,9 +2,9 @@ name: Matrix Build
 on:
   push:
     branches:
-      - main
-      - master
-
+      - test
+  workflow_dispatch:
+  
 jobs:
   test:
     runs-on: ubuntu-latest
